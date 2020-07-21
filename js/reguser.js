@@ -5,7 +5,7 @@ const formUI = id("form-reg");
 
 const Est = id("est"); // capturamos la etiqueta tbody para insertar los datos
 
-let registroDB = []; // declaramos un array vacio
+let registroDB = []; // declaramos un array vacio.
 
 // esta funcion s utiliza para crear un objeto de los datos del formulario
 const createReg = (a, b, c, d, e = "") => {
