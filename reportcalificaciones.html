@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Calificacion de estudiantes </title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+   <h1 class="title">Publicar notas de Estudiantes</h1>
+
+   <form id="form-reg">
+      <div class="input">
+         <label>Nombre:</label>
+         <input id="name" type="text" name="nombre" placeholder="Ejemplo: Juan Martinez" value="">
+      </div>
+
+      <div class="input">
+         <label>Matricula:</label>
+         <input id="matricula" type="text" name="Matricula" placeholder="Ejemplo: 2018-9964">
+      </div>
+
+      <div class="input">
+         <label>Edad: </label>
+         <input id="edad" type="number" name="edad" placeholder="Ejemplo: 20">
+      </div>
+
+      <div class="input">
+         <label>Calificacion: </label>
+         <input id="calificacion" type="number" name="calificacion" placeholder="Ejemplo: 100">
+      </div>
+
+      <div id="message"></div>
+      <div class="botones">
+         <button class="btn-registrar">Registrar</button>
+      </div>
+   </form>
+
+   <table>
+      <caption>Notas finales de los estudiantes</caption>
+      <thead>
+         <tr>
+            <th>Nombre</th>
+            <th>Matricula</th>
+            <th> Edad</th>
+            <th>NotaFinal</th>
+            <th>Accion</th>
+         </tr>
+      </thead>
+      <tbody id="est"></tbody>
+   </table>
+
+   <script src="js/reguser.js"></script>
+</body>
+
+</html>
